@@ -1,0 +1,41 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    align-item: center;
+    justify-content: center;
+    text-align: center;
+}
+h2 {
+    margin-top: 1rem;
+}
+.container{
+    display: flex;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    margin-right: .5rem;
+    margin-left: .5rem;
+    border: none;
+    border-radius: 9%;
+    width: 500px;
+    height: 450px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+}
+
+#marca, #modelo, #ano{
+    display: inline;
+    width: 398px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#btnCriar, #btnVoltar{
+    margin-top: .5rem;
+    width: 398px;
+    height: 40px;
+    cursor: pointer;
+}
